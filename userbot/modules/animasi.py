@@ -3,20 +3,20 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.sadboy(?: |$)(.*)')
+@register(outgoing=True, pattern='^.cantik(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
     await typew.edit("`Pertama-tama kamu cantik`")
     sleep(2)
-    await typew.edit("`Kedua kamu manis`")
+    await typew.edit("`cantik banget`")
     sleep(1)
-    await typew.edit("`Dan yang terakhir adalah kamu bukan jodohku`")
+    await typew.edit("`BOONG TAPI`")
 
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.punten(?: |$)(.*)')
+@register(outgoing=True, pattern='^.kio(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -26,7 +26,7 @@ async def typewriter(typew):
                      "`\n┻┳|￣  )`"
                      "`\n┳ﾐ(￣ ／`"
                      "`\n┻┳T￣|`"
-                     "\n**Punten**")
+                     "\n**aloo ada kio**")
 
 # Create by myself @localheart
 
